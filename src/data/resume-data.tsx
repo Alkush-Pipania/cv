@@ -21,7 +21,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Alkush Pipania",
-  initials: "BJ",
+  initials: "Akush",
   location: "Ghaziabad, India",
   locationLink: "https://maps.app.goo.gl/nF9TYTKPUnoTQSba9",
   about:
