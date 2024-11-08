@@ -75,6 +75,24 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "FairFi",
+      techStack: [ 
+        "Working on it",
+        "Clerk",
+        "TypeScript",
+        "Next.js",
+        "neon db",
+        "Shadcn",
+
+      ],
+      description: "Aadaptive pricing based on country-specific purchasing power parity (PPP)",
+      logo: ConsultlyLogo,
+      link: {
+        label: "github.com/Alkush-Pipania/FairFi",
+        href: "https://github.com/Alkush-Pipania/FairFi",
+      },
+    },
+    {
       title: "Carter",
       techStack: [
         "Side Project",
@@ -88,7 +106,7 @@ export const RESUME_DATA = {
       description: "A platform to build and grow your online business",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
+        label: "carter-three.vercel.app/",
         href: "https://carter-three.vercel.app/",
       },
     },
@@ -122,7 +140,7 @@ export const RESUME_DATA = {
         logo: MonitoLogo,
      
       link: {
-        label: "github.com",
+        label: "haveli-366o.vercel.app/",
         href: "https://haveli-366o.vercel.app/",
        
       },
