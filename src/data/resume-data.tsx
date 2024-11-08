@@ -71,6 +71,7 @@ export const RESUME_DATA = {
     "Drizzle",
     "DataStructures/Algorithms",
     "microservices",
+    "Docker",
     "Touch Typing -> 100wpm"
   ],
   projects: [
