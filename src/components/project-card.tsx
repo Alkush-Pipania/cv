@@ -44,13 +44,25 @@ export function ProjectCard({ title, description, tags, link }: Props) {
       <CardContent className="mt-auto flex">
         <div className="mt-2 flex flex-wrap gap-1">
           {tags.map((tag) => (
+           <>
+           {tag === "Working on it" ? (
+             <Badge
+             className="px-1 text-orange-300 py-0 text-[10px]"
+             variant="secondary"
+             key={tag}
+           >
+             {tag}
+           </Badge>
+           ):(
             <Badge
-              className="px-1 py-0 text-[10px]"
-              variant="secondary"
-              key={tag}
-            >
-              {tag}
-            </Badge>
+            className="px-1 py-0 text-[10px]"
+            variant="secondary"
+            key={tag}
+          >
+            {tag}
+          </Badge>
+           )}
+           </>
           ))}
         </div>
       </CardContent>

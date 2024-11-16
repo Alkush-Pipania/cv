@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
+  const highlightSkills = ["microservices", "Drizzle" , "Docker"];
   return (
     <main className="relative mx-auto w-full scroll-my-12 overflow-auto p-4 print:p-12 md:p-16 dark:bg-gray-950">
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6 dark:bg-gray-950">
@@ -77,7 +78,7 @@ export default function Page() {
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.length > 0 ? (
-            RESUME_DATA.work.map((work : any) => {
+            RESUME_DATA.work.map((work: any) => {
               return (
                 <Card key={work.company}>
                   <CardHeader>
@@ -88,7 +89,7 @@ export default function Page() {
                         </a>
 
                         <span className="inline-flex gap-x-1">
-                          {work.badges.map((badge : any) => (
+                          {work.badges.map((badge: any) => (
                             <Badge
                               variant="secondary"
                               className="align-middle text-xs"
@@ -115,7 +116,14 @@ export default function Page() {
               );
             })
           ) : (
-            <div className="w-full text-center text-gray-400">No experience...</div>
+            <div className="w-full text-center px-5 gap-y-1 my-2 flex flex-col text-gray-400">
+              <h2 className="text-gray-300 ">
+              Error 404 not found
+              </h2>
+              <h3>
+                That's right I have no professional in industry experience, however I still bring over 2 years of hands-on experience in coding and software development from personal projects and self-driven learning.
+              </h3>
+            </div>
           )}
 
         </Section>
@@ -143,7 +151,14 @@ export default function Page() {
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
+              return (
+                <Badge 
+                className={highlightSkills.includes(skill) ? "bg-orange-300 hover:bg-orange-400" : ""} 
+                key={skill}
+              >
+                {skill}
+              </Badge>
+              );
             })}
           </div>
         </Section>
