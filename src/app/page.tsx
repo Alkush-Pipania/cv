@@ -121,7 +121,7 @@ export default function Page() {
               Error 404 not found
               </h2>
               <h3>
-                That's right I have no professional in industry experience, however I still bring over 2 years of hands-on experience in coding and software development from personal projects and self-driven learning.
+                Thats right I have no professional in industry experience, however I still bring over 2 years of hands-on experience in coding and software development from personal projects and self-driven learning.
               </h3>
             </div>
           )}
