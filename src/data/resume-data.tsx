@@ -28,8 +28,8 @@ export const RESUME_DATA = {
     "Full Stack Engineer and aspiring DevOps Engineer focused on learning through experimentation and product development.",
   summary:
     "As a third-year Computer Science student specializing in AI and Machine Learning at RKGIT (Raj Kumar Goel Institute of Technology), I have a strong foundation in software development and a passion for building dynamic web applications. My work primarily involves TypeScript, React, and Node.js, and I enjoy the creative process of development from start to finish.",
-  avatarUrl: "https://firebasestorage.googleapis.com/v0/b/my-new-app-888e3.appspot.com/o/1.jpg?alt=media&token=315d43e7-0968-4a55-af9a-e48994fe84eb",
-
+  avatarUrl: "https://firebasestorage.googleapis.com/v0/b/my-new-app-888e3.appspot.com/o/aizen1.jpg?alt=media&token=b8700785-acd8-443a-ab32-e7149f3ba825",
+// https://firebasestorage.googleapis.com/v0/b/my-new-app-888e3.appspot.com/o/1.jpg?alt=media&token=315d43e7-0968-4a55-af9a-e48994fe84eb
   contact: {
     email: "Workofalkushpipania@gmail.com",
     // tel: "",
