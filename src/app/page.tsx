@@ -61,6 +61,21 @@ export default function Page() {
                   </a>
                 </Button>
               ))}
+
+              {RESUME_DATA.resumelink ? (
+                <Button
+                className="size-8"
+                variant="outline"
+                size="icon"
+                asChild
+              >
+                <a href={RESUME_DATA.resumelink}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ccbdbd" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-file-user"><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M15 18a3 3 0 1 0-6 0"/><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z"/><circle cx="12" cy="13" r="2"/></svg>
+                  </a>
+                
+              </Button>
+              ): null}
+
             </div>
           </div>
 

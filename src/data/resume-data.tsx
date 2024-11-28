@@ -24,6 +24,7 @@ export const RESUME_DATA = {
   initials: "Akush",
   location: "Ghaziabad, India",
   locationLink: "https://maps.app.goo.gl/nF9TYTKPUnoTQSba9",
+  resumelink : "https://firebasestorage.googleapis.com/v0/b/my-new-app-888e3.appspot.com/o/Alkush.cv.pdf?alt=media&token=7448f0b5-d48e-4d1b-a921-59eee2abef82",
   about:
     "Full Stack Engineer and aspiring DevOps Engineer focused on learning through experimentation and product development.",
   summary:
