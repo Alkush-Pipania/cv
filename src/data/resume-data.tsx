@@ -77,6 +77,22 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Website Builder",
+      techStack: [ 
+        "Web Container",
+        "Antrophic Api",
+        "React",
+        "Node",
+
+      ],
+      description: "Only need Prompt to build website with file structure and live preview",
+      logo: ConsultlyLogo,
+      link: {
+        label: "github.com/Alkush-Pipania/G1",
+        href: "https://github.com/Alkush-Pipania/G1",
+      },
+    },
+    {
       title: "FairFi",
       techStack: [ 
         "Working on it",
