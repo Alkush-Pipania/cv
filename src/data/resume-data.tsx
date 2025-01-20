@@ -77,6 +77,26 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Carter",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "Prisma",
+        "Aiven",
+        "Shadcn",
+        "saas",
+        "chrome extension"
+
+      ],
+      description: "A platform to build and grow your online business",
+      logo: ConsultlyLogo,
+      link: {
+        label: "carter.fun",
+        href: "https://www.carter.fun/",
+      },
+    },
+    {
       title: "Website Builder",
       techStack: [ 
         "Web Container",
@@ -110,24 +130,7 @@ export const RESUME_DATA = {
         href: "https://github.com/Alkush-Pipania/FairFi",
       },
     },
-    {
-      title: "Carter",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Prisma",
-        "Aiven",
-        "Shadcn",
-
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "carter-three.vercel.app/",
-        href: "https://carter-three.vercel.app/",
-      },
-    },
+    
     {
       title: "Nex-Linker",
       techStack: ["Side Project", "React.js", "firebase", "Framer Motion"],
