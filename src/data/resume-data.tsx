@@ -24,13 +24,12 @@ export const RESUME_DATA = {
   initials: "Akush",
   location: "Ghaziabad, India",
   locationLink: "https://maps.app.goo.gl/nF9TYTKPUnoTQSba9",
-  resumelink : "https://firebasestorage.googleapis.com/v0/b/my-new-app-888e3.appspot.com/o/Alkush.cv.pdf?alt=media&token=7448f0b5-d48e-4d1b-a921-59eee2abef82",
+  resumelink : "https://firebasestorage.googleapis.com/v0/b/resume-builder-2024-3d12f.appspot.com/o/carter%2Falkushcv.pdf?alt=media&token=3cff9092-8e5b-404e-bca1-1ac43baa479c",
   about:
     "Full Stack Engineer and aspiring DevOps Engineer focused on learning through experimentation and product development.",
   summary:
     "As a third-year Computer Science student specializing in AI and Machine Learning at RKGIT (Raj Kumar Goel Institute of Technology), I have a strong foundation in software development and a passion for building dynamic web applications. My work primarily involves TypeScript, React, and Node.js, and I enjoy the creative process of development from start to finish.",
   avatarUrl: "https://firebasestorage.googleapis.com/v0/b/my-new-app-888e3.appspot.com/o/aizen1.jpg?alt=media&token=b8700785-acd8-443a-ab32-e7149f3ba825",
-// https://firebasestorage.googleapis.com/v0/b/my-new-app-888e3.appspot.com/o/1.jpg?alt=media&token=315d43e7-0968-4a55-af9a-e48994fe84eb
   contact: {
     email: "Workofalkushpipania@gmail.com",
     // tel: "",
@@ -69,10 +68,7 @@ export const RESUME_DATA = {
     "Node.js/Express.js",
     "Hono",
     "Prisma",
-    "Drizzle",
-    "DataStructures/Algorithms",
-    "microservices",
-    "Docker",
+    "langchain js",
     "Touch Typing -> 100wpm"
   ],
   projects: [
@@ -94,6 +90,29 @@ export const RESUME_DATA = {
       link: {
         label: "carter.fun",
         href: "https://www.carter.fun/",
+      },
+    },
+    {
+      title: "GOOG prompt ai",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "Prisma",
+        "neon db",
+        "langchain js",
+        "Shadcn",
+        "gemini embedding model",
+        "upstash vector",
+        "context-full chats conversation"
+        
+
+      ],
+      description: "goog provide chatgbt like interface . to build prompts which is context-full and the prompt is well defined and easily to understandable",
+      logo: ConsultlyLogo,
+      link: {
+        label: "goog-sage.vercel.app/",
+        href: "https://goog-sage.vercel.app/",
       },
     },
     {
