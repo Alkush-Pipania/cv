@@ -1,9 +1,8 @@
-
 import React, { useEffect, useRef } from "react";
 import AceternityBlob from "./AceternityBlob";
 import { RESUME_DATA } from "@/data/resume";
 import Section from "./Section";
-import { Download, MapPin } from "lucide-react";
+import { Eye, MapPin } from "lucide-react";
 import ModeToggle from "./ModeToggle";
 import SocialLinks from "./SocialLinks";
 import gsap from "gsap";
@@ -70,8 +69,8 @@ const Hero = () => {
             className="group flex items-center font-medium px-5 py-2 rounded-full bg-glass-bg-dark hover:bg-neon text-neon border border-neon hover:text-black transition duration-200 shadow-glow backdrop-blur-lg animate-fade-in"
             style={{ textShadow: "0 2px 30px #9b87f5" }}
           >
-            <Download size={19} className="mr-2 group-hover:animate-bounce" />
-            Download Resume
+            <Eye size={19} className="mr-2 group-hover:animate-bounce" />
+            View Resume
           </a>
           <SocialLinks className="gap-3" />
         </div>
