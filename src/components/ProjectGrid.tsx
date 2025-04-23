@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from "react";
 import Section from "./Section";
 import { RESUME_DATA } from "@/data/resume";
@@ -6,7 +5,8 @@ import { Link as LinkIcon } from "lucide-react";
 
 const projectImages: Record<string, string> = {
   "Carter": "/lovable-uploads/8e399451-fcbd-4a74-b07a-8e2cba435faa.png",
-  "GOOG prompt ai": "/lovable-uploads/d04302d7-1dfe-4f73-a4fa-8138b50b02ff.png"
+  "GOOG prompt ai": "/lovable-uploads/d04302d7-1dfe-4f73-a4fa-8138b50b02ff.png",
+  "Website Builder": "/Builder.png"
 };
 
 const ProjectGrid = () => {

@@ -1,10 +1,9 @@
-
 import { Github, Linkedin, XIcon } from "lucide-react";
 
 
 export const RESUME_DATA = {
   name: "Alkush Pipania",
-  initials: "Akush",
+  initials: "Alkush",
   location: "Ghaziabad, India",
   locationLink: "https://maps.app.goo.gl/nF9TYTKPUnoTQSba9",
   resumelink: "https://firebasestorage.googleapis.com/v0/b/resume-builder-2024-3d12f.appspot.com/o/carter%2Falkushcv.pdf?alt=media&token=3cff9092-8e5b-404e-bca1-1ac43baa479c",
@@ -52,19 +51,22 @@ export const RESUME_DATA = {
     "Hono",
     "Prisma",
     "langchain js",
+    "Python",
     "Touch Typing -> 100wpm"
   ],
   projects: [
     {
       title: "Carter",
       techStack: [
-        "Side Project",
-        "TypeScript",
         "Next.js",
+        "TypeScript",
+        "RAG",
+        "langchain",
+        "Anthrophic",
+        "vector db",
+        "embeddings",
         "Prisma",
         "Aiven",
-        "Shadcn",
-        "saas",
         "chrome extension"
       ],
       description: "A platform to build and grow your online business",
@@ -77,15 +79,14 @@ export const RESUME_DATA = {
     {
       title: "GOOG prompt ai",
       techStack: [
-        "Side Project",
-        "TypeScript",
         "Next.js",
-        "Prisma",
-        "neon db",
+        "TypeScript",
         "langchain js",
-        "Shadcn",
         "gemini embedding model",
         "upstash vector",
+        "Prisma",
+        "neon db",
+        "Shadcn",
         "context-full chats conversation"
       ],
       description: "goog provide chatgbt like interface . to build prompts which is context-full and the prompt is well defined and easily to understandable",
@@ -98,10 +99,11 @@ export const RESUME_DATA = {
     {
       title: "Website Builder",
       techStack: [
+        "React",
+        "Node.js",
         "Web Container",
         "Antrophic Api",
-        "React",
-        "Node",
+        "Tailwind CSS"
       ],
       description: "Only need Prompt to build website with file structure and live preview",
       logo: "",
@@ -113,12 +115,12 @@ export const RESUME_DATA = {
     {
       title: "FairFi",
       techStack: [
-        "Working on it",
-        "Clerk",
-        "TypeScript",
         "Next.js",
+        "TypeScript",
+        "Clerk",
         "neon db",
         "Shadcn",
+        "Stripe"
       ],
       description: "Aadaptive pricing based on country-specific purchasing power parity (PPP)",
       logo: "",
@@ -128,8 +130,46 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "AI RAG Domain Generator",
+      techStack: [
+        "LangChain.js", 
+        "Node.js", 
+        "Gemini", 
+        "RAG", 
+        "Vector Search",
+        "PDF Processing"
+      ],
+      description: "Users provide a detailed prompt of their business. An array of domain name suggestions is generated. Uses RAG PDF for vector search to provide the best domain name suggestions.",
+      logo: "",
+      link: {
+        label: "github.com/ai-rag",
+        href: "https://github.com/ai-rag",
+      },
+    },
+    {
+      title: "Real Estate Place - Haveli",
+      techStack: [
+        "React.js", 
+        "Firebase", 
+        "Tailwind CSS",
+        "Authentication",
+        "Cloud Storage"
+      ],
+      description: "Create compelling listings, detailing property types, precise locations, amenities, and pricing.",
+      logo: "",
+      link: {
+        label: "haveli-366o.vercel.app",
+        href: "https://haveli-366o.vercel.app/",
+      },
+    },
+    {
       title: "Nex-Linker",
-      techStack: ["Side Project", "React.js", "firebase", "Framer Motion"],
+      techStack: [
+        "React.js", 
+        "Firebase", 
+        "Framer Motion",
+        "PDF Generation"
+      ],
       description:
         "A platform to build Resume and made resume template for user's ",
       logo: "",
@@ -137,28 +177,6 @@ export const RESUME_DATA = {
         label: "nex-linker.vercel.app",
         href: "https://nex-linker.vercel.app/",
       },
-    },
-    {
-      title: "Banking Transaction Backend",
-      techStack: ["Side Project", "Node.js", "Express", "Prisma"],
-      description:
-        "Realtime , Banking Trasaction",
-      logo: "",
-      link: {
-        label: "github.com",
-        href: "",
-      },
-    },
-    {
-      title: "Haveli",
-      techStack: ["First react project", "firebase", "framer motion", "tailwind css"],
-      description:
-        "Real esstate platform , to buy and sell property",
-      logo: "",
-      link: {
-        label: "haveli-366o.vercel.app/",
-        href: "https://haveli-366o.vercel.app/",
-      },
-    },
+    }
   ],
 };

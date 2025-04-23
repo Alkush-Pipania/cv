@@ -11,14 +11,12 @@ import LoadingScreen from "@/components/LoadingScreen";
 const Index = () => {
   const [loading, setLoading] = useState(true);
 
-  // Theme setup
   useEffect(() => {
     // On load, force dark mode but also set up light mode toggle capability
     const savedTheme = localStorage.getItem("theme");
     document.documentElement.classList.toggle("dark", savedTheme !== "light");
   }, []);
 
-  // Handle loading completion
   const handleLoadingComplete = () => {
     setLoading(false);
   };
