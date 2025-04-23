@@ -69,7 +69,7 @@ export const RESUME_DATA = {
         "Aiven",
         "chrome extension"
       ],
-      description: "A platform to build and grow your online business",
+      description: "A platform to SAVE AND SHARE LINKS , PDF , OTHER DOCUMENT",
       logo: "",
       link: {
         label: "carter.fun",
@@ -132,10 +132,10 @@ export const RESUME_DATA = {
     {
       title: "AI RAG Domain Generator",
       techStack: [
-        "LangChain.js", 
-        "Node.js", 
-        "Gemini", 
-        "RAG", 
+        "LangChain.js",
+        "Node.js",
+        "Gemini",
+        "RAG",
         "Vector Search",
         "PDF Processing"
       ],
@@ -149,8 +149,8 @@ export const RESUME_DATA = {
     {
       title: "Real Estate Place - Haveli",
       techStack: [
-        "React.js", 
-        "Firebase", 
+        "React.js",
+        "Firebase",
         "Tailwind CSS",
         "Authentication",
         "Cloud Storage"
@@ -165,8 +165,8 @@ export const RESUME_DATA = {
     {
       title: "Nex-Linker",
       techStack: [
-        "React.js", 
-        "Firebase", 
+        "React.js",
+        "Firebase",
         "Framer Motion",
         "PDF Generation"
       ],
